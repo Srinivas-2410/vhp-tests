@@ -1,0 +1,6 @@
+"firstName,lastName,email,phone,location,pincode,aadharOrPan,amount,expectedOutcome"
+"John,Doe,john.doe@example.com,1234567890,Bengaluru,560001,ABCDE1234F,50000,success"
+"Jane,Smith,jane.smith@example.com,0987654321,Mysuru,570001,FGHIJ5678G,25000,success"
+"Invalid,Email,invalid-email,1112223334,Delhi,110001,KLMNO9012H,10000,failure_email"
+"Short,Phone,test@test.com,123,Mumbai,400001,PQRST3456I,5000,failure_phone"
+"Empty,Name,,empty@example.com,1234567890,Chennai,600001,UVWXY7890J,7500,failure_name"

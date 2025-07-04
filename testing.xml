@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="VHP Website Test Suite">
+    <listeners>
+        <listener class-name="listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="HomePage Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.BrokenLinksTest"/>
+            <class name="tests.DonatePageTest"/>
+            <class name="tests.GalleryTest"/>
+            <class name="tests.ThemeToggle"/>
+        </classes>
+    </test>
+    </suite>
